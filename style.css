@@ -811,6 +811,10 @@ span{
     .project-content{
         grid-template-columns: repeat(2,1fr);
     }
+
+    .logo{
+        width:40%;
+    }
 }
 
 @media (max-width:600px){
