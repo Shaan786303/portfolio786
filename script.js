@@ -1,3 +1,27 @@
+// Loader or Webpage
+
+var preloader= document.getElementById('loading');
+function myFunc(){
+    preloader.style.display = 'none';
+}
+
+// Vanilla Tilt
+
+VanillaTilt.init(document.querySelectorAll(".services-box"),{
+    max: 20,
+    speed: 2500,
+    glare: true,
+    "max-glare": .4,
+});
+
+VanillaTilt.init(document.querySelectorAll(".about-img"),{
+    max: 20,
+    speed: 2500,
+    glare: true,
+    "max-glare": .2,
+});
+
+
 //  Toggle Icon Navigation
 
 let menuIcon=document.querySelector('#menu-icon');
@@ -184,21 +208,7 @@ function myFunction_1()
                 }
                 }
 
-// Vanilla Tilt
 
-    VanillaTilt.init(document.querySelectorAll(".services-box"),{
-        max: 20,
-        speed: 2500,
-        glare: true,
-        "max-glare": .4,
-    });
-
-    VanillaTilt.init(document.querySelectorAll(".about-img"),{
-        max: 20,
-        speed: 2500,
-        glare: true,
-        "max-glare": .2,
-    });
 
 // For Form Submission
 
@@ -221,10 +231,4 @@ Email.send({
 
 }
 
-// Loader or Webpage
-
-var preloader= document.getElementById('loading');
-function myFunc(){
-    preloader.style.display = 'none';
-}
 
